@@ -9,29 +9,41 @@
 </head>
 
 <body>
+    <header>
+        <h1>Programming Jobs Board</h1>
+    </header>
     <h1>Programming Jobs</h1>
     <form>
-        <label>
-            <input type="text" id="keywords" name="keywords"><br>
-            <label for </label>
+        <label for="keywords">Keywords: </label><br>
+        <input type="text" id="keywords" name="keywords"><br>
+        <label for="location">Location: </label><br>
+        <input type="text" id="location" name="location"><br><br>
+        <input type="submit" value="Search">
     </form>
-    <main>
-        <header>
-            <h1>Job Board</h1>
-        </header>
-        <section class="job-listings">
-            <article class="job">
-                <h2>Job Title</h2>
+    <h2> Featured Jobs:</h2>
+    <ul>
+        <li>
+            <h3>Software Developer</h3>
+            <p>Company Name</p>
+            <p>Location</p>
+            <p>Description</p>
+            <a href="#">Apply Now</a>
+        </li>
+        <ul>
+            <li>
+                <h3>Web Developer</h3>
                 <p>Company Name</p>
                 <p>Location</p>
-                <p>Posted Date</p>
+                <p>Description</p>
                 <a href="#">Apply Now</a>
-            </article>
-        </section>
-        <footer>
-            <p>&copy; 2023 Job Board</p>
-        </footer>
-    </main>
+            </li>
+        </ul>
+    </ul>
+
+    <footer>
+        <p>&copy; 2023 Job Board</p>
+    </footer>
+
 </body>
 
 </html>

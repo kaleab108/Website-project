@@ -1,0 +1,39 @@
+{
+    "jobListings": [
+        {
+            "title": "Front-End Developer",
+            "companyName": "Agama Solutions",
+            "location": "San Francisco, CA",
+            "description": "We are looking for a skilled front-end developer with expertise in HTML, CSS, and JavaScript. Join our team and help create responsive and visually appealing web applications.",
+            "url": "https://www.agamasolutions.com/careers/?job_id=z5G7h3l6a1kMvyS65NP3cxVnnD3hM6yscKZta6rPqew=#search-job"
+        },
+        {
+            "title": "Full-Stack Engineer",
+            "companyName": "Jobot",
+            "location": "Los Angeles, CA",
+            "description": "If you're interested in solving challenging analytical and data driven problems, this is a great role for you. This company is an up and coming SaaS provider in the risk and insurance space with an incredibly bright and talented team. They are extremely collaborative and believe in using the best tool for the job.",
+            "url": "https://www.careerbuilder.com/job/J3P5MW6Z8WZ2SH3FKW4full-stack-engineer"
+        },
+        {
+            "title": "Software Architect",
+            "companyName": "The Aerospace Corporation",
+            "location": "El Segundo, CA",
+            "description": "The Aerospace Corporation is the trusted partner to the nation's space programs, solving the hardest problems and providing unmatched technical expertise. As the operator of a federally funded research and development center (FFRDC), we are broadly engaged across all aspects of space- delivering innovative solutions that span satellite, launch, ground, and cyber systems for defense, civil and commercial customers. When you join our team, you'll be part of a special collection of problem solvers, thought leaders, and innovators. Join us and take your place in space.",
+            "url": "https://www.snagajob.com/jobs/837357923?trk=bingjobs"
+        },
+        {
+            "title": "Data Scientist",
+            "companyName": "BioSpace",
+            "location": "Los Angeles, CA",
+            "description": "If you're seeking a career where you can truly make a difference in the lives of others, a career where you can work at the absolute forefront of biotechnology with the top minds in the field, you'll find it at Amgen.",
+            "url": "https://www.linkedin.com/jobs/view/data-scientist-at-biospace-3699996138/?trk=bingjobs"
+        },
+        {
+            "title": "DevOps Engineer",
+            "companyName": "Peer Consulting Resources Inc..",
+            "location": "Santa Clarita, CA",
+            "description": "oin Our Elite DevOps TeamAre you ready to take your career to celestial heights? Come soar with us as a DevOps Engineer at the Information and Technology Solutions Directorate (ITSD) Infrastructure and Platform Solutions Team.",
+            "url": "https://www.linkedin.com/jobs/view/devops-engineer-on-w2-at-peer-consulting-resources-inc-3696347755/?trk=bingjobs"
+        }
+    ]
+}

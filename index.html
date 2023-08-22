@@ -5,45 +5,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Programming Jobs</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="app.css">
 </head>
 
 <body>
-    <header>
-        <h1>Programming Jobs Board</h1>
-    </header>
+    <h1>Programming Jobs Board</h1>
 
-    <form>
+    <form action="#">
         <label for="keywords">Keywords: </label><br>
         <input type="text" id="keywords" name="keywords"><br>
         <label for="location">Location: </label><br>
-        <input type="text" id="location" name="location"><br><br>
-        <input type="submit" value="Search">
+        <input type="text" id="location" name="location">
+        <button type="submit" id="filter-button">Filter</button>
     </form>
-    <h2> Featured Jobs:</h2>
-    <ul>
-        <li>
-            <h3>Software Developer</h3>
-            <p>Company Name</p>
-            <p>Location</p>
-            <p>Description</p>
-            <a href="#">Apply Now</a>
-        </li>
+    <div class="featured-jobs">
+        <!-- all jobs will be displayed here-->
 
-        <li>
-            <h3>Web Developer</h3>
-            <p>Company Name</p>
-            <p>Location</p>
-            <p>Description</p>
-            <a href="#">Apply Now</a>
-        </li>
-
-    </ul>
-
-    <footer>
-        <p>&copy; 2023 Job Board</p>
-    </footer>
-
+    </div>
 </body>
+<script src="app.js"></script>
 
 </html>

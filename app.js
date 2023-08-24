@@ -1,7 +1,7 @@
 const filterButton = document.querySelector('#filter-button');
 const keywordsInput = document.querySelector('#keywords');
 const locationInput = document.querySelector('#location')
-const featuredJobsContainer = document.querySelector('.feautred-jobs');
+const featuredJobsContainer = document.querySelector('.featured-jobs');
 
 filterButton.addEventListener('click', event => {
     event.preventDefault();
@@ -9,7 +9,19 @@ filterButton.addEventListener('click', event => {
     const keywords = keywordsInput.value.trim().toLowerCase();
     const location = locationInput.value.trim().toLowerCase();
 
-    featuredJobsContainer.innerHTML = '';
+    document.addEventListener("DOMContentLoaded", function () {
+        // Access the element you want to manipulate after the DOM has fully loaded
+        var featuredJobsContainer = document.getElementById("featuredJobsContainer");
+
+        // Check if the element exists before manipulating it
+        if (featuredJobsContainer) {
+            // Example: Setting the innerHTML of the element
+            featuredJobsContainer.innerHTML = "This is the new content.";
+        } else {
+            console.error("featuredJobsContainer not found in the DOM.");
+        }
+    });
+
 
     fetch('/path/to/jobs-data.json')
         .then(response => response.json())

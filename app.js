@@ -23,7 +23,7 @@ filterButton.addEventListener('click', event => {
     });
 
 
-    fetch('/path/to/jobs-data.json')
+    fetch('jobs-data.json')
         .then(response => response.json())
         .then(jobs => {
             // Filter the jobs by keywords and location

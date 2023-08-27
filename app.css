@@ -63,13 +63,72 @@ ul {
 
 .featured-jobs {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
 }
 
 .featured-jobs>div {
-    width: 100%;
+    width: 500px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.featured-jobs>div h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 10;
+}
+
+.featured-jobs>div p {
+    margin: 10px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+
+.featured-jobs>div a {
+    display: block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #366d63;
+    color: #fff;
     text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.featured-jobs>div a:hover {
+    background-color: #005cc5;
+}
+
+.featured-jobs>div h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 10px;
+}
+
+.featured-jobs>div p:first-of-type {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 10px;
+}
+
+.featured-jobs>div p:nth-last-of-type(2) {
+    font-size: 16px;
+    font-style: italic;
+    margin: 10px;
+    color: #366d63;
+}
+
+.featured-jobs>div p:last-of-type {
+    font-size: 16px;
+    margin: 10px;
+    line-height: 1.5;
 }
 
 li {

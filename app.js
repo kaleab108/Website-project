@@ -3,6 +3,8 @@ const keywordsInput = document.querySelector('#keywords');
 const locationInput = document.querySelector('#location')
 const featuredJobsContainer = document.querySelector('.featured-jobs');
 
+
+
 filterButton.addEventListener('click', event => {
     event.preventDefault();
 

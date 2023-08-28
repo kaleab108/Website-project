@@ -35,6 +35,37 @@ filterButton.addEventListener('click', event => {
         });
 });
 
+addEventListener('click', event => {
+    event.preventDefault();
+
+    const keywords = keywordsInput.value.trim().toLowerCase();
+    const location = locationInput.value.trim().toLowerCase();
+
+    document.addEventListener("DOMContentLoaded", function () {
+        // Access the element you want to manipulate after the DOM has fully loaded
+        var featuredJobsContainer = document.getElementById("featuredJobsContainer");
+
+        // Check if the element exists before manipulating it
+        if (featuredJobsContainer) {
+            // Example: Setting the innerHTML of the element
+            featuredJobsContainer.innerHTML = "This is the new content.";
+        } else {
+            console.error("featured Jobs Container not found in the DOM.");
+        }
+    });
+
+
+    fetch('jobs-data.json')
+        .then(response => response.json())
+        .then(jobs => {
+            // Filter the jobs by keywords and location
+            const filteredJobs = jobs.filter(job => {
+                return (job.title.toLowerCase().includes(keywords) && job.location.toLowerCase().includes(location)
+                );
+            });
+            filteredJobs.forEach(generateJobElement);
+        });
+});
 function generateJobElement(job) {
 
     const jobELement = document.createElement('div');

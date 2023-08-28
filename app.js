@@ -18,7 +18,7 @@ filterButton.addEventListener('click', event => {
             // Example: Setting the innerHTML of the element
             featuredJobsContainer.innerHTML = "This is the new content.";
         } else {
-            console.error("featuredJobsContainer not found in the DOM.");
+            console.error("featured Jobs Container not found in the DOM.");
         }
     });
 
@@ -61,3 +61,5 @@ function generateJobElement(job) {
 
     featuredJobsContainer.appendChild(jobELement);
 }
+
+
